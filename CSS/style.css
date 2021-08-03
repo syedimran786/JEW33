@@ -1,0 +1,44 @@
+/* p
+{
+    color:orchid;
+    font-size:100px
+} */
+
+/* Css Backgrounds */
+
+/* body
+{
+    color: white;
+    background-color: crimson;
+    background-image: url("../html/favicon.webp");
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/03/05/33/the-sun-3057622__480.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} */
+
+/* p
+{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+} */
+
+div
+{
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 0,0.4),rgba(2, 0, 128, 0.7)), url("https://cdn.pixabay.com/photo/2021/07/29/09/54/honey-bee-6506809__480.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+/* h1
+{
+    background-image: linear-gradient(rgba(189, 228, 48,1),rgba(255, 192, 203,1),rgba(255, 255, 0,1),rgba(0, 128, 0,1));
+    background-image: radial-gradient(red,pink,yellow,green);
+    height: 400px;
+} */
