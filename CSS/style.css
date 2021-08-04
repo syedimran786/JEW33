@@ -30,7 +30,7 @@ div
     background-color: blue;
     height: 500px;
     width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 0,0.4),rgba(2, 0, 128, 0.7)), url("https://cdn.pixabay.com/photo/2021/07/29/09/54/honey-bee-6506809__480.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,6)), url("https://cdn.pixabay.com/photo/2021/07/29/09/54/honey-bee-6506809__480.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;

@@ -1,0 +1,21 @@
+div
+{
+    background-color: crimson;
+    color: white;
+    display: inline;
+}
+
+a
+{
+    background-color: crimson;
+    color: white;
+    display: block;
+}
+
+p
+{
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    display: inline-block;
+}
