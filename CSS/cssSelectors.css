@@ -1,0 +1,79 @@
+/* Element Selector */
+/* p
+{
+    color:red;
+    font-size: 50px;
+} */
+
+/* Group Selector */
+/* a,p,div
+{
+    color:pink;
+    font-size: 50px;
+} */
+
+/* Class Selector */
+/* p.dinga
+{
+    color:red;
+    font-size: 50px;
+} */
+
+/* Generic Classs Selector */
+/* .dinga
+{
+    color:red;
+    text-decoration: underline;
+} */
+
+/* ID Selector */
+/* #raja
+{
+    color:hotpink;
+    font-size: 150px;
+} */
+
+/* Universal Selector */
+/* *
+{
+    color: LIME;
+} */
+
+/* Attribute Selector */
+/* p[align]
+{
+    color: crimson;
+} */
+
+/* p[align="center"]
+{
+    color: crimson;
+} */
+
+/* Combinators */
+/* 1.Child Selector */
+/* div p
+{
+    color: red;
+    font-size: 50px;
+} */
+
+/* div>p
+{
+    color: red;
+    font-size: 50px;
+} */
+
+/* Sibling Selector */
+
+div+p
+{
+    color: red;
+    font-size: 50px;
+}
+
+/* div~p
+{
+    color: red;
+    font-size: 50px;
+} */
