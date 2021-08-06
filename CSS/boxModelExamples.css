@@ -1,0 +1,54 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* .myDiv
+{
+    background-color: lime;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 10px red;
+} */
+
+nav ul li
+{
+    display: inline;
+}
+
+ul
+{
+    display: inline;
+    margin-left: 346px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    margin-left: 56px;
+}
+
+nav
+{
+    background-color: orange;
+    padding: 13px 5px;
+}
+
+.brand-logo
+{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+    color: black;
+}
+
+.cotact-btn
+{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
