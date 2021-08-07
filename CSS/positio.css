@@ -1,0 +1,42 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.mydiv1
+{
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top:100px;
+    left:283px
+}
+
+.mydiv2
+{
+    background: orange;
+    height: 400px;
+    width: 600px;
+    padding: 50px;
+
+}
+
+.Child-div1,.Child-div2,.Child-div3
+{
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.Child-div2
+{
+    background-color: tomato;
+    /* position: absolute; */
+    /* position: relative; */
+    left: 20px;
+    top: 40px;
+}

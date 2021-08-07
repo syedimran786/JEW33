@@ -5,15 +5,7 @@
     margin: 0px;
 }
 
-/* .myDiv
-{
-    background-color: lime;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    box-shadow: 2px 2px 20px 10px red;
-} */
-
+/* Navbar Starts */
 nav ul li
 {
     display: inline;
@@ -30,11 +22,19 @@ nav ul li a
     text-decoration: none;
     margin-left: 56px;
 }
-
+nav ul li a:hover
+{
+    /* text-decoration: underline; */
+    color: white;
+}
 nav
 {
     background-color: orange;
     padding: 13px 5px;
+    /* position: sticky; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .brand-logo
@@ -52,3 +52,22 @@ nav
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+.cotact-btn:hover
+{
+    background-color: rgb(46, 165, 46);
+   
+}
+
+/* Navbar Ends */
+
+/* banner starts */
+    .banner
+    {
+        height: 500px;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://cdn.pixabay.com/photo/2021/07/18/14/59/family-6475821__340.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+    }
+/* banner Ends */
