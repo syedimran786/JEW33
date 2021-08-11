@@ -1,0 +1,65 @@
+/* 
+
+.gallery
+{
+    background-color: gray;
+    padding: 50px;
+}
+
+.gallery img
+{
+    width: 384px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 8px white;
+    opacity: 0.5;
+    transition: opacity 2s,transform 1s;
+    transition-delay: 2s;
+}
+
+.gallery img:hover
+{
+    opacity: 1;
+    transform: scale(1.2);
+} */
+
+.myDiv
+{
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+    animation-name: dinga;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    animation-direction: reverse;
+    margin: 200px;
+}
+
+.myDiv1
+{
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    animation-name: dingi;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 10s; */
+    animation-direction: reverse;
+    margin: 200px;
+}
+@keyframes dingi
+{
+   10%{background-color:yellow}
+   30%{ background-color:purple}
+   50%{ background-color:aqua}
+   70%{ background-color:lime;}
+   90%{ background-color:tomato}
+   100%{ background-color:skyblue}
+}
+
+.animate__delay-2s
+{
+    animation-delay: 10s!important;
+}

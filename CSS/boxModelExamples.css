@@ -40,6 +40,7 @@ nav
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 2;
 }
 
 .brand-logo
@@ -190,3 +191,42 @@ nav
        margin-top: 20px;
    }
 /* cards Ends */
+
+/* client starts */
+.client
+{
+    background-color: lightblue;
+    padding: 10px;
+}
+.client-card
+{
+    border:1px solid gray;
+    width: 270px;
+    height: 129px;
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.client-card:hover img
+{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.client-card img
+{
+    height: 58px;
+    width: 110px;
+    margin:36px 76px;
+}
+
+.client-row
+{
+    margin-left: 50px;
+}
+
+.client-row-2
+{
+    margin-top: -8px;
+}
+/* client ends */
