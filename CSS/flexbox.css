@@ -1,0 +1,44 @@
+.parent
+{
+    background-color: crimson;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* flex-flow:column-reverse wrap; */
+    /* align-items:center ; */
+}
+
+.child
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.child1
+{
+    /* order:1 ; */
+}
+.child2
+{
+    /* order:2 ;
+     */
+     align-self: flex-end
+}
+.child3
+{
+    order:3;
+}
+.child4
+{
+    order:4 ;
+}
+.child5
+{
+    order:5 ;
+}
