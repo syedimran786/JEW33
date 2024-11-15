@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+ <style>
+   .myIndia{
+  width: 100%;
+  max-width: 300px;
+  height: 150px;
+  position: relative;
+  margin: 30px auto;
+  border-top: 50px solid #FF9933;
+  border-bottom: 50px solid #128807;
+  -webkit-box-shadow: 0px 5px 20px #777;
+  -moz-box-shadow: 0px 5px 20px #777;
+  box-shadow: 0px 5px 20px #777;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.myIndia:before{
+  content: '';
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -23px;
+  top: 50%;
+  margin-top: -23px;
+  background:url(http://uiglobe.com/share-images/Ashoka_Chakra.png) center center no-repeat;
+  background-size:cover;
+  animation: 5s rotating infinite linear;
+  -webkit-animation: 5s rotating infinite linear;
+  -moz-animation: 5s rotating infinite linear;
+}
+@keyframes rotating{
+  from{ transform:rotate(0deg);}
+  to{transform:rotate(360deg);}
+}
+@-webkit-keyframes rotating{
+  from{-webkit-transform:rotate(0deg);}
+  to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes rotating{
+  from{-moz-transform:rotate(0deg);}
+  to{-moz-transform:rotate(360deg);}
+}
+ </style>
+</head>
+<body>
+<div class="myIndia"></div>
+
+</body>
+</html>
